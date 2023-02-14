@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3c4405d3d3c14ba98cfd898d0e2c38ef" Name="Diagram1">
+        <EntityTypeShape EntityType="АльшаковаModel.Cities" Width="1.5" PointX="0.75" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="АльшаковаModel.Competencies" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="АльшаковаModel.Courses" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="АльшаковаModel.StudentCourses" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="АльшаковаModel.Students" Width="1.5" PointX="3" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="АльшаковаModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="АльшаковаModel.TeacherCourses" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="АльшаковаModel.Teachers" Width="1.5" PointX="3" PointY="7.625" IsExpanded="true" />
+        <AssociationConnector Association="АльшаковаModel.FK_Students_Cities" ManuallyRouted="false" />
+        <AssociationConnector Association="АльшаковаModel.FK_Courses_Competencies" ManuallyRouted="false" />
+        <AssociationConnector Association="АльшаковаModel.FK_StudentCourses_Courses" ManuallyRouted="false" />
+        <AssociationConnector Association="АльшаковаModel.FK_TeacherCourses_Courses" ManuallyRouted="false" />
+        <AssociationConnector Association="АльшаковаModel.FK_StudentCourses_Students" ManuallyRouted="false" />
+        <AssociationConnector Association="АльшаковаModel.FK_TeacherCourses_Teachers" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
